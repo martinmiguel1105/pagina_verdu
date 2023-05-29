@@ -5,31 +5,31 @@ body{
 }
 
 .caja{
-    position: relative; /*no se pero iba con esto en el footer*/
-    margin: 0 auto; /* el margen:primero es arriba y abajo y el segundo izquierda derecha*/ 
-    background: url(fondo_principal.jpg); /*con esto ponemos una imagen de fondo a hipevinculos e imagen*/
+    position: relative;
+    margin: 0 auto; 
+    background: url(fondo_principal.jpg);
 }
 
 .caja img{
-    width: 18%;/*buscamos la imagen de de la cabeza de la pagina y de damos el tamaño necesario*/
+    width: 18%;
 }
 
 nav{
-   position: absolute; /*esta encapsula la imagen y los hipervinculos en el mismo renglon*/
-    top: 110px; /*le da la altura a los hipervinculos*/
-    right: 300px; /*los hipervinculos se posisionan a la derecha en este caso*/
+   position: absolute;
+    top: 110px;
+    right: 300px;
 }
 
 nav li{
-    display: inline; /*es para hacer en linea en este caso los hiper. uno al lado de otro*/
+    display: inline;
 }
 
 nav a {
-    text-transform: uppercase;/*pasa el texto a mayuscula*/
-    font-size: 22px;/*un tamaño estandar*/
-    font-weight: bold;/*negrita*/
-    color:rgb(27, 55, 27)/*color*/
-    text-decoration: none;/*saca las decoraciones del hipervinculo*/
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    color:rgb(27, 55, 27)
+    text-decoration: none;
     padding: 0 10px;
 }
 nav a:hover{
@@ -37,105 +37,103 @@ nav a:hover{
     text-decoration: double;
     color:orangered;
 }
-/*aca termina el encabezado y empieza el home*/
 
 .banner{
-    display: block;/*es necesario hacer el bloque para centrar la imagen en la pantalla*/
-    margin:auto ;/*el margen automatico para q lo centre*/
-    width: 70% ;/*para q la imagen ocupe el 70% del ancho de la pantalla*/
+    display: block;
+    margin:auto ;
+    width: 70% ;
 }
 
 .principal{
-    background:linear-gradient(rgb(173, 237, 173), rgb(15, 230, 15));/*pusimos 2 gamas de verde en toda la pantalla por q la colocamos en el main*/
-    padding: 1em ;/*espaciamiento interno q le dimos*/
+    background:linear-gradient(rgb(173, 237, 173), rgb(15, 230, 15));
 }
 
 .titulo-principal{
-    text-align: center;/*centrar o alistar hacia uno de los lados*/
-    color: darkolivegreen;/*color de la letra*/
-    font-size: 6em;/*6 veces mas del tamaño original*/
-    font-weight: bold;/*negrita*/
-    font-style: italic;/*estilo de la letra*/
-    text-shadow:2px 2px 10px chartreuse;/*sombra abajo, derecha, opacidad y color*/ 
+    text-align: center;
+    color: darkolivegreen;
+    font-size: 6em;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow:2px 2px 10px chartreuse;
 }
 
-.flotante-izquierdo{/*creamos una clase en la imagen para incrustar en selection de p esta imagen*/
-    width: 200px;/*tamaño de la imagen*/
-    float: left;/*la imagen flotante a la izquierda*/
-    margin: 0 10px 10px 0; /*margen derecho y abajo*/
+.flotante-izquierdo{
+    width: 200px;
+    float: left;
+    margin: 0 10px 10px 0;
 }
 
-.flotante-derecho{/*creamos una clase en la imagen para incrustar en selection de p esta imagen*/
-    width: 200px;/*tamaño de la imagen*/
-    float: right;/*la imagen flotante a la derecha*/
-    margin:0 0 10px 10px;/*margen izquierdo y abajo*/
+.flotante-derecho{
+    width: 200px;
+    float: right;
+    margin:0 0 10px 10px;
 }
 
 .principal p{
-    margin: 0 0 1em;/*margenes entre parrafo y oparrafo*/
-    font-size: 1.2em;/*tamaño de la fuente*/
+    margin: 0 0 1em;
+    font-size: 1.2em;
 } 
 
 .principal em{
-    font-style: italic;/*en la etiqueta em lo hicimos italico*/
+    font-style: italic;
 }
 
-.principal strong{/*class principal / etiqueta strong*/
-    font-weight: bold;/*le damos estilo negrita a lo seleccionado*/
+.principal strong{
+    font-weight: bold;
 }
-#objetivo strong{/*el #es por que es un id*/
-    color: rgb(244, 106, 8);/*en la etiqueta estrong pintamos de color*/
-}
-
-.ubicacion{/*una class de una selection*/
-    text-align: center;/*centramos el mapa y los titulos*/ 
-
-}
-.ubicacion p{/*es el parrafo de la selection*/
-    font-size: 33px;/*tamaño del parrafo*/
-    color: orange; /*color del parrafo*/
+#objetivo strong{
+    color: rgb(244, 106, 8);
 }
 
-    .mapa{/*las dimensiones del mapa se modifica en el html*/
-    width: 940px;/*tamaño estandar de la pantalla en la q se va a ubicar el mapa*/
-    margin: 0 auto;/*margen automatico hacia los laterales*/
+.ubicacion{
+    text-align: center;
+
+}
+.ubicacion p{
+    font-size: 33px;
+    color: orange; 
+}
+
+    .mapa{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .articulos{
-    padding: 3em;/*espaciamiento interno para todo el select*/
+    padding: 3em;
 }
 
-.contenido-articulos{/*el div q contiene los items y las imagenes*/
-width: 940px;/*tamaño del div*/
-margin: 0 auto;/*margen*/
+.contenido-articulos{
+width: 940px;
+margin: 0 auto;
 }
 
-.lista-articulos{/*es el ul*/
-    display: inline-block;/*para poner bloques en linea osea las imagenes con el div de items*/
-    vertical-align: top;  /*posision vertical*/
-    list-style: none;/* en el ul para sacar esos puntos en cada item*/
+.lista-articulos{
+    display: inline-block;
+    vertical-align: top; 
+    list-style: none;
 }
 
 .items{
-    line-height: 1.5;/*espaciamiento entre los items*/
+    line-height: 1.5;
     color: chocolate;
 }
 
-.items:before{/* significa antes (antes del item)*/
-    content: "🍓";/*contenido sacamos lo emoji de internet*/
+.items:before{
+    content: "🍓";
 }
-.items:after{/*significa despues*/
+.items:after{
     content: "🍓";
 }
 
-.items:first-child{/*es para seleccionar el primer item*/
-    font-weight: bold;/*y le ponemos negrita*/
+.items:first-child{
+    font-weight: bold;
 }
 
-.foto_articulos{/* es para 2 fotos una antes y en el mismo reglon que (ul) y la otra igual pero al fin*/
-    width: 30%;/*ancho de la imagen*/
-    margin: 0 20px;/*margen de la foto hacia los costados*/
-    box-shadow: 15px 15px 25px 5px orangered;/*derecha con - es izquierda / abajocon- es arriba transparente / expancion / color*/ 
+.foto_articulos{
+    width: 30%;
+    margin: 0 20px;
+    box-shadow: 15px 15px 25px 5px orangered;
 }
 
 .video{
